@@ -13,11 +13,11 @@
   <br/>
 
   <div>
-    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-    <img src="https://img.shields.io/badge/Ethereum-6B71E3?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum"/>
-    <img src="https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black" alt="Solana"/>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="Ethereum"/>
+    <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="Solana"/>
     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
   </div>
 
   <br/>
@@ -43,28 +43,28 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="25%">
+      <td align="center" width="25%" style="padding: 20px;">
         <img width="40" src="https://img.icons8.com/fluency/48/key-security.png" alt="security"/>
         <br/>
         <strong>Secure Key Generation</strong>
         <br/>
         <sub>Military-grade encryption</sub>
       </td>
-      <td align="center" width="25%">
+      <td align="center" width="25%" style="padding: 20px;">
         <img width="40" src="https://img.icons8.com/fluency/48/ethereum.png" alt="eth"/>
         <br/>
         <strong>ETH Transactions</strong>
         <br/>
         <sub>Fast & secure transfers</sub>
       </td>
-      <td align="center" width="25%">
+      <td align="center" width="25%" style="padding: 20px;">
         <img width="40" src="https://img.icons8.com/fluency/48/sol.png" alt="sol"/>
         <br/>
         <strong>SOL Transfers</strong>
         <br/>
         <sub>Lightning-quick sends</sub>
       </td>
-      <td align="center" width="25%">
+      <td align="center" width="25%" style="padding: 20px;">
         <img width="40" src="https://img.icons8.com/fluency/48/chart-arrow-rise.png" alt="tracking"/>
         <br/>
         <strong>Balance Tracking</strong>
@@ -83,11 +83,11 @@ graph TD
     B --> C[MongoDB]
     B --> D[Ethereum Network]
     B --> E[Solana Network]
-    style A fill:#61DAFB,stroke:#333,stroke-width:2px
-    style B fill:#339933,stroke:#333,stroke-width:2px
-    style C fill:#47A248,stroke:#333,stroke-width:2px
-    style D fill:#6B71E3,stroke:#333,stroke-width:2px
-    style E fill:#14F195,stroke:#333,stroke-width:2px
+    style A fill:#20232A,stroke:#61DAFB,stroke-width:2px,color:#fff
+    style B fill:#68A063,stroke:#3C873A,stroke-width:2px,color:#fff
+    style C fill:#4DB33D,stroke:#3FA037,stroke-width:2px,color:#fff
+    style D fill:#3C3C3D,stroke:#8A92B2,stroke-width:2px,color:#fff
+    style E fill:#9945FF,stroke:#14F195,stroke-width:2px,color:#fff
 ```
 
 ## 💻 Tech Stack
@@ -157,15 +157,28 @@ npm run dev
 
 ## 🔐 Security Features
 
-- **Wallet Security**
-  - Non-custodial key management
-  - Encrypted storage
-  - Secure key generation
-
-- **Transaction Security**
-  - Real-time validation
-  - Status monitoring
-  - Balance verification
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <h3>🛡️ Wallet Security</h3>
+        <ul align="left">
+          <li>Non-custodial key management</li>
+          <li>Encrypted storage</li>
+          <li>Secure key generation</li>
+        </ul>
+      </td>
+      <td align="center" width="50%">
+        <h3>🔒 Transaction Security</h3>
+        <ul align="left">
+          <li>Real-time validation</li>
+          <li>Status monitoring</li>
+          <li>Balance verification</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🌐 Connect
 
@@ -178,9 +191,9 @@ npm run dev
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3C3C3D,50:9945FF,100:14F195&height=100&section=footer" width="100%"/>
   
   <p>
-    <sub>Built with 💜 by ME</sub>
+    <sub>Built with 💜 by BonkPay</sub>
   </p>
 </div>
