@@ -1,187 +1,123 @@
 <div align="center">
   <img src="bonkpay-frontend/src/assets/bonk.png" alt="BonkPay Logo" width="200"/>
 
-  # 🌐 BonkPay - Next-Gen Multi-Chain Wallet
-  
+  # ⚡ BonkPay
+  ### Your Gateway to Multi-Chain Transactions
+
   <p align="center">
-    Experience Web3 like never before with our secure, intuitive crypto wallet supporting Ethereum and Solana chains
+    <strong>A secure, non-custodial wallet for Ethereum and Solana</strong>
   </p>
 
+  <br/>
+
   <div>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="Ethereum"/>
-    <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="Solana"/>
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+    <img src="https://img.shields.io/badge/Ethereum-6B71E3?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum"/>
+    <img src="https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black" alt="Solana"/>
     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
   </div>
+
+  <br/>
+
+  <p align="center">
+    <strong>🔒 Non-Custodial</strong> &nbsp;•&nbsp;
+    <strong>⚡ Fast</strong> &nbsp;•&nbsp;
+    <strong>🛡️ Secure</strong> &nbsp;•&nbsp;
+    <strong>🌈 Modern UI</strong>
+  </p>
 </div>
 
-## 📝 Overview
-
-BonkPay revolutionizes the Web3 wallet experience by seamlessly bridging Ethereum and Solana ecosystems. Built for both crypto natives and newcomers, it combines enterprise-grade security with an intuitive interface that makes navigating Web3 feel natural.
+## 🎯 Core Features
 
 <div align="center">
-  <h2>🎥 Live Demo</h2>
-  <a href="https://www.youtube.com/watch?v=SJ6JZ5TfxQk">
-    <img src="https://img.youtube.com/vi/SJ6JZ5TfxQk/0.jpg" alt="BonkPay Demo" style="max-width: 600px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </a>
+  <table>
+    <tr>
+      <td align="center">🔐 <br/> Secure Key Generation</td>
+      <td align="center">💸 <br/> ETH Transactions</td>
+      <td align="center">☀️ <br/> SOL Transfers</td>
+      <td align="center">📊 <br/> Balance Tracking</td>
+    </tr>
+  </table>
 </div>
 
-## ⚡ Web3 Capabilities
+## 🔧 Technical Stack
 
-- **🔄 Cross-Chain Swaps**: Seamlessly swap assets between Ethereum and Solana
-- **🌉 Bridge Integration**: Native support for Wormhole and other popular bridges
-- **🔗 dApp Browser**: Integrated Web3 browser for DeFi interactions
-- **🪙 NFT Support**: Full NFT visualization and transfer capabilities
-- **⚖️ DeFi Dashboard**: Track your yields and liquidity positions
-- **🤖 Smart Contract Interface**: Easy interaction with verified contracts
+### Frontend
+- **Framework**: React 18.2 with Vite
+- **Styling**: TailwindCSS with custom animations
+- **Web3 Integration**: 
+  - Ethers.js for Ethereum
+  - @solana/web3.js for Solana
+- **State Management**: React Hooks
+- **API Communication**: Axios
 
-## 🌟 Core Features
-
-- **🛡️ Military-Grade Security**: 
-  - Secure Enclave protection
-  - Multi-sig support
-  - Hardware wallet integration
-  - Biometric authentication
-- **📊 Real-Time Analytics**: 
-  - Gas fee predictions
-  - Price impact calculations
-  - Portfolio performance metrics
-- **🎨 Modern UX/UI**:
-  - Dark/Light themes
-  - Customizable dashboards
-  - Interactive charts
-  - Transaction simulations
-
-## 🏗️ Technical Architecture
-
-### Backend Infrastructure
-```mermaid
-graph TD
-    A[Client] --> B[API Gateway]
-    B --> C[Auth Service]
-    B --> D[Wallet Service]
-    D --> E[Ethereum Node]
-    D --> F[Solana Node]
-    B --> G[Analytics Engine]
-```
-
-### Web3 Integration
-
-#### Ethereum Stack
-- **Network**: Ethereum Sepolia via Alchemy
-- **Features**:
-  ```javascript
-  {
-    "smartContracts": "ERC-20/721/1155",
-    "transactions": "EIP-1559 support",
-    "gasOptimization": "EIP-1559 + MEV protection",
-    "standards": ["EIP-712", "EIP-2612"]
-  }
-  ```
-
-#### Solana Stack
-- **Network**: Solana Devnet
-- **Features**:
-  ```javascript
-  {
-    "programs": "Native + SPL",
-    "transactions": "Versioned + v0",
-    "staking": "Delegated proof of stake",
-    "standards": ["Metaplex", "Token-2022"]
-  }
-  ```
-
-## 💻 UI/UX Features
-
-### Web3-Native Elements
-- **Token Lists**: 
-  - Curated token directories
-  - Real-time price feeds
-  - Trading pair analytics
-- **Transaction Builder**:
-  - Visual transaction composer
-  - Batch transaction support
-  - Gas optimization suggestions
-- **DeFi Components**:
-  - Yield farming dashboards
-  - Liquidity pool interfaces
-  - Staking portals
-
-### Interactive Elements
-- **3D Wallet Visualizations**
-- **Live Network Stats**
-- **Transaction Flow Animations**
-- **Price Chart Integration**
+### Backend
+- **Runtime**: Node.js with Express
+- **Database**: MongoDB with Mongoose
+- **Authentication**: Bcrypt for password hashing
+- **Blockchain Connections**:
+  - Ethereum (Sepolia Testnet)
+  - Solana (Devnet)
 
 ## 🚀 Quick Start
 
-1. **Clone & Install**
 ```bash
+# Clone repository
 git clone https://github.com/yourusername/bonkpay.git
-cd bonkpay
 
-# Frontend setup
-cd bonkpay-frontend
-npm install
+# Install dependencies
+cd bonkpay-frontend && npm install
+cd ../bonkpay-backend && npm install
 
-# Backend setup
-cd ../bonkpay-backend
-npm install
-```
-
-2. **Configure Environment**
-```bash
+# Set up environment variables
 # Frontend (.env)
-VITE_ALCHEMY_KEY=your_key
-VITE_SOLANA_RPC=your_rpc
+VITE_ALCHEMY_ETH_URL=your_alchemy_url
+VITE_SOLANA_RPC=your_solana_rpc
 
 # Backend (.env)
 MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
-```
+PORT=3000
 
-3. **Launch Development Environment**
-```bash
-# Start backend (http://localhost:3000)
+# Start development servers
+# Backend
 npm run dev
 
-# Start frontend (http://localhost:5173)
+# Frontend
 npm run dev
 ```
 
-## 🛡️ Security Features
+## 💫 Key Features
 
-- **Wallet Security**:
-  - Zero-knowledge proof integration
-  - Threshold signatures
-  - Time-locked transactions
-  - Whitelist management
+### 🔒 Secure Wallet Generation
+- Generates unique ETH and SOL wallets
+- Non-custodial key management
+- Encrypted storage in MongoDB
 
-- **Network Security**:
-  - RPC node redundancy
-  - Transaction simulation
-  - Slippage protection
-  - MEV attack prevention
+### 💎 Transaction Management
+- Real-time balance updates
+- Transaction history tracking
+- Gas fee estimation
+- Transaction status monitoring
 
-## 🤝 Contributing
+### 🎨 Modern User Interface
+- Responsive design
+- Dark mode optimized
+- Interactive animations
+- Real-time updates
 
-We welcome contributions! Check our [Contributing Guidelines](CONTRIBUTING.md) for:
-- Code style guidelines
-- Pull request process
-- Development workflow
-- Community guidelines
-
-## 📞 Connect With Us
+## 🌐 Connect
 
 <div align="center">
   <a href="https://twitter.com/VagabondBushido">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Follow_@VagabondBushido-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </div>
 
----
+<br/>
 
 <div align="center">
-  <p>Built with 💜 by ME </p>
+  <p>
+    <sub>Built with 💜 by BonkPay</sub>
+  </p>
 </div>
