@@ -44,28 +44,28 @@
   <table>
     <tr>
       <td align="center" width="25%" style="padding: 20px;">
-        <img width="40" src="https://img.icons8.com/fluency/48/key-security.png" alt="security"/>
+        <img width="48" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" alt="security"/>
         <br/>
         <strong>Secure Key Generation</strong>
         <br/>
         <sub>Military-grade encryption</sub>
       </td>
       <td align="center" width="25%" style="padding: 20px;">
-        <img width="40" src="https://img.icons8.com/fluency/48/ethereum.png" alt="eth"/>
+        <img width="48" src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg" alt="eth"/>
         <br/>
         <strong>ETH Transactions</strong>
         <br/>
         <sub>Fast & secure transfers</sub>
       </td>
       <td align="center" width="25%" style="padding: 20px;">
-        <img width="40" src="https://img.icons8.com/fluency/48/sol.png" alt="sol"/>
+        <img width="48" src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/sol.svg" alt="sol"/>
         <br/>
         <strong>SOL Transfers</strong>
         <br/>
         <sub>Lightning-quick sends</sub>
       </td>
       <td align="center" width="25%" style="padding: 20px;">
-        <img width="40" src="https://img.icons8.com/fluency/48/chart-arrow-rise.png" alt="tracking"/>
+        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/graph-24.svg" alt="tracking"/>
         <br/>
         <strong>Balance Tracking</strong>
         <br/>
@@ -92,9 +92,10 @@ graph TD
 
 ## 💻 Tech Stack
 
+<div align="center">
 <table>
 <tr>
-<td>
+<td width="50%">
 
 ### 🎨 Frontend
 ```javascript
@@ -111,7 +112,7 @@ graph TD
 ```
 
 </td>
-<td>
+<td width="50%">
 
 ### ⚙️ Backend
 ```javascript
@@ -129,11 +130,12 @@ graph TD
 </td>
 </tr>
 </table>
+</div>
 
 ## 🚀 Quick Setup
 
 <details>
-<summary>📝 Installation Steps</summary>
+<summary><b>📝 Installation Steps</b></summary>
 
 ```bash
 # Clone repository
@@ -160,7 +162,8 @@ npm run dev
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 20px;">
+        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/shield-check-24.svg" alt="wallet-security"/>
         <h3>🛡️ Wallet Security</h3>
         <ul align="left">
           <li>Non-custodial key management</li>
@@ -168,7 +171,8 @@ npm run dev
           <li>Secure key generation</li>
         </ul>
       </td>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 20px;">
+        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/lock-24.svg" alt="transaction-security"/>
         <h3>🔒 Transaction Security</h3>
         <ul align="left">
           <li>Real-time validation</li>
@@ -194,6 +198,6 @@ npm run dev
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3C3C3D,50:9945FF,100:14F195&height=100&section=footer" width="100%"/>
   
   <p>
-    <sub>Built with 💜 by BonkPay</sub>
+    <sub>Built with 💜 by ME</sub>
   </p>
 </div>
