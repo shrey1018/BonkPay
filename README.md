@@ -2,10 +2,12 @@
   <img src="bonkpay-frontend/src/assets/bonk.png" alt="BonkPay Logo" width="200"/>
 
   # ⚡ BonkPay
-  ### Your Gateway to Multi-Chain Transactions
+  <h3>
+    <strong>Your Gateway to Multi-Chain Transactions</strong>
+  </h3>
 
   <p align="center">
-    <strong>A secure, non-custodial wallet for Ethereum and Solana</strong>
+    Experience seamless crypto management across Ethereum and Solana chains
   </p>
 
   <br/>
@@ -28,83 +30,142 @@
   </p>
 </div>
 
-## 🎯 Core Features
+<div align="center">
+  <h2>🎥 Watch BonkPay in Action</h2>
+  
+  [![BonkPay Demo](https://img.youtube.com/vi/SJ6JZ5TfxQk/maxresdefault.jpg)](https://www.youtube.com/watch?v=SJ6JZ5TfxQk)
+  
+  <p><em>Click the image to watch the demo video!</em></p>
+</div>
+
+## ✨ Features
 
 <div align="center">
   <table>
     <tr>
-      <td align="center">🔐 <br/> Secure Key Generation</td>
-      <td align="center">💸 <br/> ETH Transactions</td>
-      <td align="center">☀️ <br/> SOL Transfers</td>
-      <td align="center">📊 <br/> Balance Tracking</td>
+      <td align="center" width="25%">
+        <img width="40" src="https://img.icons8.com/fluency/48/key-security.png" alt="security"/>
+        <br/>
+        <strong>Secure Key Generation</strong>
+        <br/>
+        <sub>Military-grade encryption</sub>
+      </td>
+      <td align="center" width="25%">
+        <img width="40" src="https://img.icons8.com/fluency/48/ethereum.png" alt="eth"/>
+        <br/>
+        <strong>ETH Transactions</strong>
+        <br/>
+        <sub>Fast & secure transfers</sub>
+      </td>
+      <td align="center" width="25%">
+        <img width="40" src="https://img.icons8.com/fluency/48/sol.png" alt="sol"/>
+        <br/>
+        <strong>SOL Transfers</strong>
+        <br/>
+        <sub>Lightning-quick sends</sub>
+      </td>
+      <td align="center" width="25%">
+        <img width="40" src="https://img.icons8.com/fluency/48/chart-arrow-rise.png" alt="tracking"/>
+        <br/>
+        <strong>Balance Tracking</strong>
+        <br/>
+        <sub>Real-time updates</sub>
+      </td>
     </tr>
   </table>
 </div>
 
-## 🔧 Technical Stack
+## 🏗️ Architecture
 
-### Frontend
-- **Framework**: React 18.2 with Vite
-- **Styling**: TailwindCSS with custom animations
-- **Web3 Integration**: 
-  - Ethers.js for Ethereum
-  - @solana/web3.js for Solana
-- **State Management**: React Hooks
-- **API Communication**: Axios
+```mermaid
+graph TD
+    A[Frontend - React] --> B[Backend - Node.js]
+    B --> C[MongoDB]
+    B --> D[Ethereum Network]
+    B --> E[Solana Network]
+    style A fill:#61DAFB,stroke:#333,stroke-width:2px
+    style B fill:#339933,stroke:#333,stroke-width:2px
+    style C fill:#47A248,stroke:#333,stroke-width:2px
+    style D fill:#6B71E3,stroke:#333,stroke-width:2px
+    style E fill:#14F195,stroke:#333,stroke-width:2px
+```
 
-### Backend
-- **Runtime**: Node.js with Express
-- **Database**: MongoDB with Mongoose
-- **Authentication**: Bcrypt for password hashing
-- **Blockchain Connections**:
-  - Ethereum (Sepolia Testnet)
-  - Solana (Devnet)
+## 💻 Tech Stack
 
-## 🚀 Quick Start
+<table>
+<tr>
+<td>
+
+### 🎨 Frontend
+```javascript
+{
+  "framework": "React 18.2 + Vite",
+  "styling": "TailwindCSS",
+  "web3": {
+    "ethereum": "ethers.js",
+    "solana": "@solana/web3.js"
+  },
+  "state": "React Hooks",
+  "api": "Axios"
+}
+```
+
+</td>
+<td>
+
+### ⚙️ Backend
+```javascript
+{
+  "runtime": "Node.js + Express",
+  "database": "MongoDB + Mongoose",
+  "security": "Bcrypt",
+  "networks": {
+    "eth": "Sepolia Testnet",
+    "sol": "Devnet"
+  }
+}
+```
+
+</td>
+</tr>
+</table>
+
+## 🚀 Quick Setup
+
+<details>
+<summary>📝 Installation Steps</summary>
 
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/bonkpay.git
 
-# Install dependencies
-cd bonkpay-frontend && npm install
-cd ../bonkpay-backend && npm install
+# Install frontend dependencies
+cd bonkpay-frontend
+npm install
 
-# Set up environment variables
-# Frontend (.env)
-VITE_ALCHEMY_ETH_URL=your_alchemy_url
-VITE_SOLANA_RPC=your_solana_rpc
+# Install backend dependencies
+cd ../bonkpay-backend
+npm install
 
-# Backend (.env)
-MONGO_URI=your_mongodb_uri
-PORT=3000
+# Configure environment
+cp .env.example .env
 
-# Start development servers
-# Backend
-npm run dev
-
-# Frontend
+# Launch development servers
 npm run dev
 ```
+</details>
 
-## 💫 Key Features
+## 🔐 Security Features
 
-### 🔒 Secure Wallet Generation
-- Generates unique ETH and SOL wallets
-- Non-custodial key management
-- Encrypted storage in MongoDB
+- **Wallet Security**
+  - Non-custodial key management
+  - Encrypted storage
+  - Secure key generation
 
-### 💎 Transaction Management
-- Real-time balance updates
-- Transaction history tracking
-- Gas fee estimation
-- Transaction status monitoring
-
-### 🎨 Modern User Interface
-- Responsive design
-- Dark mode optimized
-- Interactive animations
-- Real-time updates
+- **Transaction Security**
+  - Real-time validation
+  - Status monitoring
+  - Balance verification
 
 ## 🌐 Connect
 
@@ -117,7 +178,9 @@ npm run dev
 <br/>
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+  
   <p>
-    <sub>Built with 💜 by BonkPay</sub>
+    <sub>Built with 💜 by ME</sub>
   </p>
 </div>
